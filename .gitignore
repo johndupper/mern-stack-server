@@ -1,0 +1,6 @@
+# webstorm config
+.idea/
+.idea/vcs.xml
+
+# node modules
+node_modules/
