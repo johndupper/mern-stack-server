@@ -4,3 +4,9 @@
 
 # node modules
 node_modules/
+
+# config files
+.env
+
+# mongodb
+.db/
