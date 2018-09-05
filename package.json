@@ -4,36 +4,24 @@
   "description": "## Backend",
   "main": "index.js",
   "scripts": {
-    "lint": "standard --fix",
-    "test": "jest -i --verbose --coverage --runInBand",
-    "start": "node index.js",
-    "dboff": "killall mongod",
-    "watch": "nodemon index.js",
-    "dbon": "mkdir -p ./db && mongod --dbpath ./db"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/johndupper/mern-stack-server.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "john dupper",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/johndupper/mern-stack-server/issues"
   },
   "homepage": "https://github.com/johndupper/mern-stack-server#readme",
   "dependencies": {
-    "cors": "^2.8.4",
     "dotenv": "^6.0.0",
     "express": "^4.16.3",
-    "http-errors": "^1.7.0",
-    "mongoose": "^5.2.12",
-    "superagent": "^3.8.3"
+    "mongodb": "^3.1.4",
+    "mongoose": "^5.2.13"
   },
-  "devDependencies": {
-    "babel-preset-env": "^1.7.0",
-    "babel-register": "^6.26.0",
-    "jest": "^23.5.0",
-    "standard": "^12.0.1"
-  }
+  "devDependencies": {}
 }
